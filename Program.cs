@@ -1,20 +1,27 @@
-﻿Cliente cliente1 = new Cliente("João");
+﻿Cliente cliente = new Cliente("João");
+Cliente cliente2 = new Cliente("Albert");
+Barbeiro barbeiro = new Barbeiro("Carlos");
+Barbeiro barbeiro2 = new Barbeiro("Jailson");
+Servico servico = new Servico("Corte");
+Servico servico2 = new Servico("Barba");
+cliente.Nome = "João";
+barbeiro.Nome = "José";
+servico.Nome = "Degradê";
 
- 
-Barbeiro barbeiro1 = new Barbeiro("Carlos");
+cliente2.Nome = "Albert";
+barbeiro2.Nome = "Jailson";
+servico2.Nome = "Barba";
 
- 
-Servico servico1 = new Servico("Corte");
+Console.WriteLine(cliente);
 
- 
-cliente1.Nome = "Lucas";
-barbeiro1.Nome = "José";
-servico1.Nome = "Corte de cabelo";
- 
-Console.WriteLine(cliente1);
+Console.WriteLine(barbeiro);
 
- 
-Console.WriteLine(barbeiro1);
+Console.WriteLine(servico);
 
- 
-Console.WriteLine(servico1);
+Console.WriteLine("---------------------------------------");
+
+Console.WriteLine(cliente2);
+
+Console.WriteLine(barbeiro2);
+
+Console.WriteLine(servico2);
