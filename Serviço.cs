@@ -13,6 +13,11 @@ public class Servico
         this.nome = nome;
     }
 
+    public void MostrarServiço()
+    {
+        Console.WriteLine("Serviço escolhido: " + nome);
+    }
+
     public override string ToString()
     {
         return "Serviço: " + nome;
