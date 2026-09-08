@@ -12,6 +12,11 @@ public class Cliente
     {
         this.nome = nome;
     }
+
+    public void MarcarHorario()
+    {
+        Console.WriteLine(nome + "marcou um horário");
+    }
  
     public override string ToString()
     {
