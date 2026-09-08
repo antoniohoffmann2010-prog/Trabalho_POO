@@ -13,7 +13,7 @@ public class Barbeiro
         this.nome = nome;
     }
 
-    public void cortarCabelo()
+    public void CortarCabelo()
     {
         Console.WriteLine(nome + "está cortando o cabelo.");
     }
