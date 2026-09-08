@@ -12,6 +12,11 @@ public class Barbeiro
     {
         this.nome = nome;
     }
+
+    public void cortarCabelo()
+    {
+        Console.WriteLine(nome + "está cortando o cabelo.");
+    }
  
     public override string ToString()
     {
