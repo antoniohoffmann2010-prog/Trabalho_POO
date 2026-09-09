@@ -15,7 +15,7 @@ public class Barbeiro
 
     public void CortarCabelo()
     {
-        Console.WriteLine(nome + "está cortando o cabelo.");
+        Console.WriteLine(nome + " está cortando o cabelo.");
     }
  
     public override string ToString()
